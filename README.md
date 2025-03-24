@@ -1,15 +1,15 @@
 # Score-Based Denoising with Reverse-Time SDEs
 
-This repository contains an implementation of a score-based denoising model using reverse-time Stochastic Differential Equations (SDEs). The approach leverages a neural network to estimate the score function, which is then used to denoise images corrupted by Gaussian noise.
+NGUYEN Nhan - SENEQUIER Fabien - ARTHAUD Lilian
+
+This repository contains an implementation of a score-based denoising model using reverse-time Stochastic Differential Equations (SDEs). The approach leverages a neural network to estimate the score function, which is then used to denoise images corrupted by Gaussian noise. This implementation is inspired by the work presented in the [Score-Based Data Assimilation](https://github.com/francois-rozet/sda/tree/master?tab=readme-ov-file) repository and the accompanying paper.
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Score Network Training](#score-network-training)
 3. [Denoising Algorithm](#denoising-algorithm)
-4. [Metrics](#metrics)
-5. [Parameters](#parameters)
-6. [Usage](#usage)
+4. [Usage](#usage)
 
 ## Introduction
 
@@ -43,21 +43,6 @@ Score-based generative models have emerged as a powerful tool for tasks involvin
 
 - **Step Size**: A small step size (e.g., 0.0001) is used for stable updates.
 - **Number of Steps**: The denoising process runs for a fixed number of steps (e.g., 100).
-
-## Metrics
-
-### Mean Squared Error (MSE)
-
-- **Purpose**: To quantitatively evaluate the performance of the denoising process.
-- **Calculation**: MSE is computed between the denoised image and the original clean image.
-- **Interpretation**: Lower MSE values indicate better denoising performance.
-
-## Parameters
-
-- **Noise Level (`noise_sigma`)**: Controls the amount of noise added to the clean images during training.
-- **Step Size (`step_size`)**: Determines the update magnitude in the denoising process.
-- **Number of Steps (`num_steps`)**: Total number of iterations in the denoising process.
-- **Learning Rate (`lr`)**: Learning rate for the Adam optimizer during training.
 
 ## Usage
 
