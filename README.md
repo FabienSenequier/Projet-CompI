@@ -50,3 +50,12 @@ Score-based generative models have emerged as a powerful tool for tasks involvin
    ```bash
    git clone https://github.com/FabienSenequier/Projet-CompI.git
    cd Projet-CompI
+
+2. **Open the Jupyter Notebook**:
+
+Navigate to the projet.ipynb file and open it using Jupyter Notebook or any compatible environment.
+Run the notebook to train the score network and perform denoising on sample images. The results will be displayed within the notebook.
+View the Presentation:
+
+3. **Get more explanation**:
+Open the *slides.ppt* file for a detailed explanation of the project, including visual aids and additional context.
