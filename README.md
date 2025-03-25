@@ -4,20 +4,29 @@ Group 2 - Topic 2: NGUYEN Nhan - SENEQUIER Fabien - ARTHAUD Lilian
 
 This repository contains an implementation of a score-based denoising model using reverse-time Stochastic Differential Equations (SDEs) for the Final Project of Computational Imaging at IMT Atlantique - Bretagne-Pays de la Loire. The approach leverages a neural network to estimate the score function, which is then used to denoise images corrupted by Gaussian noise. 
 
-Firsly, we try to do the implementation inspired by the work presented in the [Score-Based Data Assimilation](https://github.com/francois-rozet/sda/tree/master?tab=readme-ov-file) repository and the accompanying paper. Simultaneously, we develop our own denoising algorithm based on proposed methode and then apply it to one example image (only the script in [projet.ipynb](./projet.ipynb))
-.
+Firsly, we try to do the implementation inspired by the work presented in the [Score-Based Data Assimilation](https://github.com/francois-rozet/sda/tree/master?tab=readme-ov-file) repository and the accompanying paper. Simultaneously, we develop our own denoising algorithm based on proposed methode and then apply it to one example image (only the script in [projet.ipynb](./projet.ipynb)).
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. 
+2. [Score-Based Data Assimilation](#score-based-data-assimilation)
 3. [Score Network Training](#score-network-training)
-4. [Denoising Algorithm](#denoising-algorithm)
-5. [Usage](#usage)
+4. [Score Network Training](#score-network-training)
+5. [Denoising Algorithm](#denoising-algorithm)
+6. [Usage](#usage)
 
 ## Introduction
 
 Score-based generative models have emerged as a powerful tool for tasks involving data denoising and generation. This implementation focuses on image denoising using a score network trained to estimate the gradient of the log-density of the data distribution. The denoising process is modeled as a reverse-time SDE, where the score network guides the removal of noise from the images.
+
+## Score-Based Data Assimilation
+
+**Note**: For this project, the majority of the code is written in Python. Moreoever, we worked mainly on **Jupyter Notebook** and **Google Colab**. However, due to the limitted resources for the standard user of Google Colab, we manage to **use only the CPU** (the runtime type). One more thing to remember is that we work only on the [kolmogorov](./experiments/kolmogorov) folder because of time constraint of this project.
+ 
+**Slide**: You can also find the final presentation of this project on this link: 
+
+###  Organization
+
 
 ## Score Network Training
 
