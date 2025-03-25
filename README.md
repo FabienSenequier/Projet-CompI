@@ -41,6 +41,8 @@ The [results](./results) directory containes all the simulated results and visua
 
 #### Algorithm
 
+You can find the training algorithm [here](./Training_algo.png).
+
 1. **Data Preparation**: The training data consists of clean images from the CIFAR-10 dataset.
 2. **Noise Addition**: Gaussian noise is added to the clean images to create noisy images.
 3. **Score Estimation**: The score network is trained to estimate the score (gradient of the log-density) of the noisy images.
