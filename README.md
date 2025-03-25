@@ -10,10 +10,7 @@ Firsly, we try to do the implementation inspired by the work presented in the [S
 
 1. [Introduction](#introduction)
 2. [Score-Based Data Assimilation](#score-based-data-assimilation)
-3. [Score Network Training](#score-network-training)
-4. [Score Network Training](#score-network-training)
-5. [Denoising Algorithm](#denoising-algorithm)
-6. [Usage](#usage)
+3. [Denoising Algorithm](#Denoising Algorithm)
 
 ## Introduction
 
@@ -38,9 +35,11 @@ The [kolmogorov](./experiments/kolmogorov) directory containes:
 
 The [results](./results) directory containes all the simulated results and visualizations.
 
-## Score Network Training
+## Denoising Algorithm
 
-### Algorithm
+### Score Network Training 
+
+#### Algorithm
 
 1. **Data Preparation**: The training data consists of clean images from the CIFAR-10 dataset.
 2. **Noise Addition**: Gaussian noise is added to the clean images to create noisy images.
