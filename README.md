@@ -2,7 +2,10 @@
 
 Group 2 - Topic 2: NGUYEN Nhan - SENEQUIER Fabien - ARTHAUD Lilian
 
-This repository contains an implementation of a score-based denoising model using reverse-time Stochastic Differential Equations (SDEs) for the Final Project of Computational Imaging at IMT Atlantique - Bretagne-Pays de la Loire. The approach leverages a neural network to estimate the score function, which is then used to denoise images corrupted by Gaussian noise. 
+## Acknowledgement
+This project was developed as part of the project of Computational Imaging course led and supervised by Ronan Fablet, François Rousseau and Mai Quyen Pham at IMT Atlantique - Bretagne-Pays de la Loire.
+
+This repository contains an implementation of a score-based denoising model using reverse-time Stochastic Differential Equations (SDEs). The approach leverages a neural network to estimate the score function, which is then used to denoise images corrupted by Gaussian noise. 
 
 Firsly, we try to do the implementation inspired by the work presented in the [Score-Based Data Assimilation](https://github.com/francois-rozet/sda/tree/master?tab=readme-ov-file) repository and the accompanying paper. Simultaneously, we develop our own denoising algorithm based on proposed methode and then apply it to one example image (only the script in [projet.ipynb](./projet.ipynb)).
 
@@ -20,7 +23,7 @@ Score-based generative models have emerged as a powerful tool for tasks involvin
 
 **Note**: For this project, the majority of the code is written in Python. Moreoever, we worked mainly on **Jupyter Notebook** and **Google Colab**. However, due to the limitted resources for the standard user of Google Colab, we manage to **use only the CPU** (the runtime type). One more thing to remember is that we work only on the [kolmogorov](./experiments/kolmogorov) directory because of time constraint of this project.
  
-**Slide**: You can also find the final presentation of this project on this link: 
+**Slide**: You can also find the final presentation of this project [here](./Topic 2 - Group 2 - Score based data assimilation.pdf). 
 
 ###  Organization
 The [sda](./sda) directory contains the implementations of the [dynamical systems](./sda/sda/mcs.py), the [neural networks](./sda/sda/nn.py), the [score models](./sda/sda/score.py) and [various helpers](./sda/sda/utils.py).
