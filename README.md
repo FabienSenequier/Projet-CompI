@@ -1,7 +1,9 @@
 # Score-Based Data Assimilation
 
-IMT Atlantique - Bretagne Pays de la Loire
-Project of Computational Imaging
+IMT Atlantique - Bretagne-Pays de la Loire
+
+Project of Computational Imaging UE
+
 Group 2 - Topic 2: NGUYEN Nhan - SENEQUIER Fabien - ARTHAUD Lilian
 
 This repository contains an implementation of a score-based denoising model using reverse-time Stochastic Differential Equations (SDEs). The approach leverages a neural network to estimate the score function, which is then used to denoise images corrupted by Gaussian noise. 
