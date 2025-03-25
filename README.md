@@ -1,21 +1,19 @@
 # Score-Based Data Assimilation
 
-IMT Atlantique - Bretagne-Pays de la Loire
-
-Project of Computational Imaging UE
-
 Group 2 - Topic 2: NGUYEN Nhan - SENEQUIER Fabien - ARTHAUD Lilian
 
-This repository contains an implementation of a score-based denoising model using reverse-time Stochastic Differential Equations (SDEs). The approach leverages a neural network to estimate the score function, which is then used to denoise images corrupted by Gaussian noise. 
+This repository contains an implementation of a score-based denoising model using reverse-time Stochastic Differential Equations (SDEs) for the Final Project of Computational Imaging at IMT Atlantique - Bretagne-Pays de la Loire. The approach leverages a neural network to estimate the score function, which is then used to denoise images corrupted by Gaussian noise. 
 
-Firsly, we try to do the implementation inspired by the work presented in the [Score-Based Data Assimilation](https://github.com/francois-rozet/sda/tree/master?tab=readme-ov-file) repository and the accompanying paper. Then, we develop our own denoising algorithm and then apply it to one example image.  
+Firsly, we try to do the implementation inspired by the work presented in the [Score-Based Data Assimilation](https://github.com/francois-rozet/sda/tree/master?tab=readme-ov-file) repository and the accompanying paper. Simultaneously, we develop our own denoising algorithm based on proposed methode and then apply it to one example image (only the script in [projet.ipynb](./projet.ipynb).
+.
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Score Network Training](#score-network-training)
-3. [Denoising Algorithm](#denoising-algorithm)
-4. [Usage](#usage)
+2. 
+3. [Score Network Training](#score-network-training)
+4. [Denoising Algorithm](#denoising-algorithm)
+5. [Usage](#usage)
 
 ## Introduction
 
