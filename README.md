@@ -23,7 +23,7 @@ Score-based generative models have emerged as a powerful tool for tasks involvin
 
 **Note**: For this project, the majority of the code is written in Python. Moreoever, we worked mainly on **Jupyter Notebook** and **Google Colab**. However, due to the limitted resources for the standard user of Google Colab, we manage to **use only the CPU** (the runtime type). One more thing to remember is that we work only on the [kolmogorov](./experiments/kolmogorov) directory because of time constraint of this project.
  
-**Slide**: You can also find the final presentation of this project [here](./T2 _Gr2_ScoreBasedDataAssimilation.pdf). 
+**Slide**: You can also find the final presentation of this project [here](./T2_Gr2_ScoreBasedDataAssimilation.pdf). 
 
 ###  Organization
 The [sda](./sda) directory contains the implementations of the [dynamical systems](./sda/sda/mcs.py), the [neural networks](./sda/sda/nn.py), the [score models](./sda/sda/score.py) and [various helpers](./sda/sda/utils.py).
