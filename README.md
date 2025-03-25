@@ -34,9 +34,7 @@ The [kolmogorov](./experiments/kolmogorov) directory containes:
 2. [train.py](./experiments/kolmogorov/train.py): score model training.
 3. [figures.ipynb](./experiments/kolmogorov/figures.ipynb): **main visualization** of inference from trained model.
 4. [figures_bis.ipynb](./experiments/kolmogorov/figures_bis.ipynb): secondary visualization or new settings testing.
-5. [sandwich.ipynb](./experiments/kolmogorov/sandwich.ipynb): vorticity fields and animations plotting. But since we use Google Colab so we use this file to generate data and to train model too.
-```python
-!python "/content/drive/MyDrive/FISE 3A/UE_F_Computational Imaging/Project/sda-master/experiments/kolmogorov/generate.py"
+5. [sandwich.ipynb](./experiments/kolmogorov/sandwich.ipynb): vorticity fields and animations plotting. But since we use Google Colab which only allows to run the .py file within the notebook so we use this file to **generate data** and to **train model** too.
 
 The [results](./results) directory containes all the simulated results and visualizations.
 
