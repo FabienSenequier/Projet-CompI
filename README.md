@@ -71,7 +71,8 @@ The [results](./results) directory containes all the simulated results and visua
 #### 1. Clone the Repository:
    ```bash
    git clone https://github.com/FabienSenequier/Projet-CompI.git
-   cd Projet-CompI```
+   cd Projet-CompI
+   ```
 
 #### 2. Open the Jupyter Notebook:
 
