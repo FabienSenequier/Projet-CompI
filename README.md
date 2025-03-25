@@ -10,7 +10,7 @@ Firsly, we try to do the implementation inspired by the work presented in the [S
 
 1. [Introduction](#introduction)
 2. [Score-Based Data Assimilation](#score-based-data-assimilation)
-3. [Denoising Algorithm](#Denoising Algorithm)
+3. [Denoising Algorithm](#denoising-algorithm)
 
 ## Introduction
 
