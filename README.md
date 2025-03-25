@@ -16,7 +16,7 @@ Firsly, we try to do the implementation inspired by the work presented in the [S
 
 Score-based generative models have emerged as a powerful tool for tasks involving data denoising and generation. This implementation focuses on image denoising using a score network trained to estimate the gradient of the log-density of the data distribution. The denoising process is modeled as a reverse-time SDE, where the score network guides the removal of noise from the images.
 
-## Score-Based Data Assimilation
+## Score-Based Data Assimilation - Proposed Method by François ROZET
 
 **Note**: For this project, the majority of the code is written in Python. Moreoever, we worked mainly on **Jupyter Notebook** and **Google Colab**. However, due to the limitted resources for the standard user of Google Colab, we manage to **use only the CPU** (the runtime type). One more thing to remember is that we work only on the [kolmogorov](./experiments/kolmogorov) directory because of time constraint of this project.
  
@@ -35,7 +35,7 @@ The [kolmogorov](./experiments/kolmogorov) directory containes:
 
 The [results](./results) directory containes all the simulated results and visualizations.
 
-## Denoising Algorithm
+## Denoising Algorithm - Proposed Method by our team
 
 ### 1. Score Network Training 
 
